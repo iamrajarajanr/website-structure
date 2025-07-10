@@ -125,6 +125,10 @@ a:hover,.a:focus{
     color:#143774;
 }
 
+strong{
+    font-weight: bold;
+}
+
 @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
