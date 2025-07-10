@@ -28,6 +28,7 @@ h1{
 
 }
 
+
 .subtitle {
     font-weight: 700;
     color: #1792d2;
@@ -64,10 +65,29 @@ Layout
     flex-direction: column;
 }
 
+img{
+    max-width:100%;
+}
+
 header {
     text-align: center;
     background: #f8f8f8;
     padding: 2em 0;
+}
+
+@media (min-width:675px) {
+    .container-flex{
+        flex-direction: row;
+    }
+
+    main{
+        width:75%;
+    }
+
+    aside{
+        width:20%;
+    }
+    
 }
 
 /* @media (max-width: 675px) {
@@ -131,7 +151,7 @@ strong{
     font-weight: bold;
 }
 
-/* @media (max-width: 675px) {
+@media (max-width: 675px) {
     nav ul {
         flex-direction: column;
     }
@@ -139,4 +159,4 @@ strong{
     nav li {
         margin: .5em 0;
     }
-} */
+}
