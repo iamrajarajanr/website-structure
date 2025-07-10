@@ -5,6 +5,7 @@ font-family: 'Ubuntu', sans-serif;
 */
 
 body {
+    font-weight: 300;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.125rem;
@@ -42,6 +43,11 @@ h1{
     font-size: 0.875rem;
 }
 
+.article-read-more{
+    text-decoration: none;
+    font-weight:700;
+    color:#143774;
+}
 /* =================
 Layout
 ================= */
