@@ -38,6 +38,10 @@ h1{
     font-size: 1.5rem;
 }
 
+.article-read-more,.article-info{
+    font-size: 0.875rem;
+}
+
 /* =================
 Layout
 ================= */
