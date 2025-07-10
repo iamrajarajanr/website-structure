@@ -87,7 +87,19 @@ header {
 
 .article-recent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.article-recent-secondary{
+    order:1;
+}
+
+.article-recent-main{
+    order:2;
+}
+
+.article-recent-main{
+    margin-bottom:2em;
 }
 
 @media (min-width:675px) {
