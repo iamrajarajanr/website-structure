@@ -58,25 +58,27 @@ Layout
     margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 header {
+    text-align: center;
     background: #f8f8f8;
     padding: 2em 0;
 }
 
-@media (max-width: 675px) {
-    .container-nav {
+/* @media (max-width: 675px) {
+    .container-flex {
         flex-direction: column;
     }
     
     header {
         text-align: center;
     }
-}
+} */
 
 /* navigation */
 
@@ -129,7 +131,7 @@ strong{
     font-weight: bold;
 }
 
-@media (max-width: 675px) {
+/* @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
     }
@@ -137,4 +139,4 @@ strong{
     nav li {
         margin: .5em 0;
     }
-}
+} */
