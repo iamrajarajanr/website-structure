@@ -203,13 +203,20 @@ strong{
 .widget-recent-post{
         display: flex;
         flex-direction: column;
-        order:-1;
+        margin-bottom:1em;
+        border-bottom: 1px solid #707070;
+        margin-bottom: 1em;
         
     }
 
+.widget-recent-post:last-child{
+    border:0;
+    margin:0;
+}
+
 .widget-image{
-    margin-bottom:1em;
-    order:-2;
+    
+    order:-1;
 
     }
     
