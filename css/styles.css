@@ -236,5 +236,12 @@ strong{
     #flowerVase{
         object-position: left;
     }
+
+}
+
+.sidebar-widget{
+    border:20px solid #efefef;
+    padding: 1em;
+    margin-bottom: 2em;
 }
 
