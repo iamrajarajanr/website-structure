@@ -184,6 +184,38 @@ strong{
 
 }
 
+.widget-title, .widget-recent-post-title{
+    font-size:1rem;
+
+}
+
+.widget-title{
+    font-weight: 700;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.sidebar-widget{
+    border:20px solid #efefef;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.widget-recent-post{
+        display: flex;
+        flex-direction: column;
+        order:-1;
+        
+    }
+
+.widget-image{
+    margin-bottom:1em;
+    order:-2;
+
+    }
+    
+  
+
+
 @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
@@ -237,21 +269,7 @@ strong{
         object-position: left;
     }
 
+    
 }
 
-.widget-title, .widget-recent-post-title{
-    font-size:1rem;
-
-}
-
-.widget-title{
-    font-weight: 700;
-    font-family: "Ubuntu",sans-serif;
-}
-
-.sidebar-widget{
-    border:20px solid #efefef;
-    padding: 1em;
-    margin-bottom: 2em;
-}
 
