@@ -151,11 +151,11 @@ nav a {
 nav a:hover,
 nav a:focus {
     color: #1792d2;
-    text-decoration: underline;
+    
 }
 
 .current-page {
-    border-bottom: 1px solid #707070;
+    border-bottom: 2px solid #707070;
 }
 
 .current-page:hover {
@@ -300,5 +300,3 @@ footer{
 
     
 }
-
-
