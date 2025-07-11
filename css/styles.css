@@ -239,6 +239,16 @@ strong{
 
 }
 
+.widget-title, .widget-recent-post-title{
+    font-size:1rem;
+
+}
+
+.widget-title{
+    font-weight: 700;
+    font-family: "Ubuntu",sans-serif;
+}
+
 .sidebar-widget{
     border:20px solid #efefef;
     padding: 1em;
