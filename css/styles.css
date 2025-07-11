@@ -184,6 +184,19 @@ strong{
 
 }
 
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav li {
+        margin: .5em 0;
+    }
+
+   
+    
+}
+
 @media (min-width:675px) {
     .container-flex{
         flex-direction: row;
@@ -195,10 +208,13 @@ strong{
 
     aside{
         width:20%;
+        min-width:200px;
+        margin-left: 1em;
     }
 
     .article-recent{
         flex-direction: row;
+        justify-content: space-between;
 
     }
 
@@ -207,18 +223,18 @@ strong{
     }
     
     .article-recent-secondary{
-        width:38%;
+        width:30%;
+    }
+
+    .article-image{
+        width:100%;
+        min-height:400px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    #flowerVase{
+        object-position: left;
     }
 }
 
-@media (max-width: 675px) {
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav li {
-        margin: .5em 0;
-    }
-
-    
-}
